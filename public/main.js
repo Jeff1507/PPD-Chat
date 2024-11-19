@@ -31,7 +31,7 @@ function addMessage(type, user, msg) {
             if (username == user) {
                 ul.innerHTML += '<li class="m-txt"><span class="me">' + user + ':</span> ' + msg + '</li>';
             } else {
-                ul.innerHTML += '<li class="m-txt"><span>' + user + '</span> ' + msg + '</li>';
+                ul.innerHTML += '<li class="m-txt"><span>' + user + ':</span> ' + msg + '</li>';
             }
             break;
     }
